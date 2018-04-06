@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleInfoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/listSongTitleSize"
+        android:layout_margin="@dimen/baseMargin"
+        android:text="@string/sampleSong"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"
+         />
+
+    <TextView
+        android:id="@+id/titleInfoArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/listArtistSize"
+        android:text="@string/sampleArtist"
+        app:layout_constraintLeft_toLeftOf="@+id/titleInfoName"
+        app:layout_constraintTop_toBottomOf="@+id/titleInfoName" />
+
+    <TextView
+        android:id="@+id/songDurationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/baseMargin"
+        android:layout_marginEnd="@dimen/baseMargin"
+        app:layout_constraintTop_toTopOf="@id/titleInfoArtist"
+        app:layout_constraintBottom_toBottomOf="@id/titleInfoArtist"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="@dimen/durationSize"
+        android:text="@string/timeSample"
+        />
+
+    <TextView
+        android:id="@+id/funFactView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/baseMargin"
+        android:text="@string/funFact"
+        android:textSize="@dimen/funFactSize"
+        app:layout_constraintTop_toBottomOf="@id/titleInfoArtist"
+        app:layout_constraintLeft_toLeftOf="@id/titleInfoName"
+        app:layout_constraintRight_toRightOf="@id/songDurationView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+
+        />
+
+</android.support.constraint.ConstraintLayout>

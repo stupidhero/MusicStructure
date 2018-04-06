@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="baseMargin">16dp</dimen>
+    <dimen name="infoTitleSize">24sp</dimen>
+    <dimen name="infoArtistSize">12sp</dimen>
+    <dimen name="listSongTitleSize">36sp</dimen>
+    <dimen name="listArtistSize">16sp</dimen>
+    <dimen name="durationSize">16sp</dimen>
+    <dimen name="funFactSize">48sp</dimen>
+</resources>

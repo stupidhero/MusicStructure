@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicStructure</string>
+    <string name="sampleArtist">sampleArtist</string>
+    <string name="sampleSong">sampleSong</string>
+    <string name="funFact">funFactIsHere</string>
+    <string name="timeSample">3:55</string>
+</resources>
