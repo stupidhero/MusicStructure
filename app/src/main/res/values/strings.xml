@@ -4,4 +4,5 @@
     <string name="sampleSong">sampleSong</string>
     <string name="funFact">funFactIsHere</string>
     <string name="timeSample">3:55</string>
+    <string name="BackToList">Back to List</string>
 </resources>

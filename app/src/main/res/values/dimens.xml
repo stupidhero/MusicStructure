@@ -6,5 +6,6 @@
     <dimen name="listSongTitleSize">36sp</dimen>
     <dimen name="listArtistSize">16sp</dimen>
     <dimen name="durationSize">16sp</dimen>
-    <dimen name="funFactSize">48sp</dimen>
+    <dimen name="funFactSize">36sp</dimen>
+
 </resources>
